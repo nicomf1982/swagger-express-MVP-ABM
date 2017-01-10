@@ -1,0 +1,23 @@
+{
+  "user":{
+    "name":"nicolas"
+  },
+  "domain":"localhost",
+  "server":{
+    "port":5000
+  },
+  "service": {
+    "protocol": "http://",
+    "host": "localhost:5000",
+    "pathname": "/service"
+  },
+  "db":{
+
+    "url":"mongodb://127.0.0.1:27017/restful",
+    "port":27017,
+    "collections":[
+      "users",
+      "logs"
+    ]
+  }
+}

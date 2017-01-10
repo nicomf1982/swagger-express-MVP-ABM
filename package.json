@@ -1,0 +1,22 @@
+{
+  "name": "restfulmodel-copy",
+  "version": "1.0.0",
+  "description": "api test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/www"
+  },
+  "author": "Nicomf1982 <nicomf1982@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.24.0",
+    "debug": "^2.6.0",
+    "express": "^4.14.0",
+    "js-yaml": "^3.7.0",
+    "mongojs": "^2.4.0",
+    "swagger-tools": "^0.10.1",
+    "swaggerize-express": "^4.0.5",
+    "swaggerize-ui": "^1.0.1"
+  }
+}
